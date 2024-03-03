@@ -1,0 +1,39 @@
+/*NUCLIO COLOR rgba(252,183,0, 1); */
+/* :root {
+    --main-nuclio-color: rgba(252,183,0, 1);
+} */
+
+
+.calculator {
+    width: 200px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #555555;
+}
+
+input {
+    width: 176px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.operators {
+    background-color: rgb(255 199 51);
+    font-weight: bold;
+}
